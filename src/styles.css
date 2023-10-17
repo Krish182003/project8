@@ -1,0 +1,59 @@
+/* Reset some default browser styles */
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the whole page */
+  body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header and navigation bar */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #55b4d4;
+  }
+  
+  /* Style the About section */
+  .about-section {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Add more styles for other sections as needed */
